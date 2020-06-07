@@ -1,0 +1,52 @@
+{
+  "main": [{
+    "suma": []
+  }, {
+    "resta": []
+  }]
+}
+
+[
+  {
+    "name": "main",
+    "args": [],
+    "time": 0.43244,
+    "calls": [{
+      "name": "suma",
+      "args": [],
+      "time": 0.22849,
+      "calls": []
+    },{
+      "name": "suma",
+      "args": [],
+      "time": 0.20851,
+      "calls": []
+    }]
+  }
+]
+
+
+
+[
+  {
+    'name': 'main',
+    'time': 1.5029659271240234,
+    'calls': [{
+      'name': 'suma',
+      'time': 0.7012231349945068,
+      'calls': [{
+        'name': 'resta',
+        'time': 0.40096569061279297,
+        'calls': []
+      }]
+    },{
+      'name': 'resta',
+      'time': 0.4010326862335205,
+      'calls': []
+    },{
+      'name': 'resta',
+      'time': 0.4007101058959961,
+      'calls': []
+    }]
+  }
+]
