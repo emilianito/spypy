@@ -25,3 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Linter
+      run: |
+        flake8 --exclude=__init__.py spypy
+        flake8 tests
